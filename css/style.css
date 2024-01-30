@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.topbar {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.background-gray {
+    background-color: grey;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 3px;
+}
+
+.smaller {
+    font-size:15px;
+}
+
+.bluebox {
+    background-color: rgb(17, 156, 216);
+    color: white;
+    border-radius: 10px;
+}
+
+.whitebox {
+    background-color: white;
+    color: rgb(184, 184, 184);
+    border-radius: 10px;
+    border:1px solid rgb(133, 133, 133);
+    border-radius: 4px;
+}
+
+
+.buttonbluebox {
+    border: 1px solid rgb(17, 156, 216);
+    border-radius: 4px;
+}
+
+.radiuscross{
+    border: 1px solid red;
+    color: red;
+    border-radius: 100%;
+}
+
+.radiuscheck{
+    border: 1px solid green;
+    color: green;
+    border-radius: 100%;
+}
