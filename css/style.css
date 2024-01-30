@@ -2,33 +2,78 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(73, 73, 73);
 }
 
 ol, ul, li {
     list-style: none;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.topbar {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
 }
 
 .inline {
     display: inline;
 }
 
-.topbar {
-    width: 100%;
-    margin-bottom: 20px;
-    background-color: white;
-}
-
-.background-gray {
-    background-color: grey;
-    height: 100vh;
-}
-
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: white;
     margin-bottom: 3px;
 }
+
+.container-radius-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.container-radius-bottom {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.navbar-size{
+    height: auto;
+}
+
+.margin-contained-items {
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+.padding-navbar-buttons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+header>img {
+    width: 80px;
+}
+
+header>h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.background-gray {
+    background-color: rgb(185, 185, 185);
+    height: 100%;
+}
+
 
 .smaller {
     font-size:15px;
@@ -37,7 +82,31 @@ ol, ul, li {
 .bluebox {
     background-color: rgb(17, 156, 216);
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.greenbox {
+    background-color: rgb(52, 173, 15);
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.purplebox {
+    background-color: rgb(175, 34, 175);
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.buttonbluebox {
+    border: 1px solid rgb(17, 156, 216);
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 .whitebox {
@@ -45,23 +114,27 @@ ol, ul, li {
     color: rgb(184, 184, 184);
     border-radius: 10px;
     border:1px solid rgb(133, 133, 133);
+    padding: 5px 10px;
     border-radius: 4px;
-}
-
-
-.buttonbluebox {
-    border: 1px solid rgb(17, 156, 216);
-    border-radius: 4px;
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 .radiuscross{
-    border: 1px solid red;
+    border: 1.5px solid red;
     color: red;
     border-radius: 100%;
+    margin-right: 10px;
 }
 
 .radiuscheck{
-    border: 1px solid green;
+    border: 1.5px solid green;
     color: green;
     border-radius: 100%;
+    margin-right: 10px;
+}
+
+#newtask-div {
+    margin-top: 5px;
+    padding-top: 20px;
 }
