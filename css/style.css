@@ -18,14 +18,20 @@ h2 {
 }
 
 .topbar {
-    height: 100px;
     width: 100%;
     margin-bottom: 20px;
     background-color: white;
+    position: relative;
 }
 
 .inline {
+    color: black;
     display: inline;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 40px;
+    left: 190px;
+
 }
 
 .container {
@@ -70,7 +76,7 @@ header>h1 {
 }
 
 .background-gray {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(235, 235, 235);
     height: 100%;
 }
 
@@ -86,6 +92,7 @@ header>h1 {
     padding: 5px;
     font-size: 20px;
 }
+
 .greenbox {
     background-color: rgb(52, 173, 15);
     color: white;
